@@ -13,7 +13,7 @@
         <small>- <a href="https://twitter.com/#!/themitcho">Mitcho</a></small></h4>
     </div>
 </div>
-<a id="form" class="section">&nbsp;</a>
+<a id="form" class="section"></a>
 <div class="row">
 	<div id="center" class="span12 columns offset2">
 	<form id="cptGeneratorForm" > 
