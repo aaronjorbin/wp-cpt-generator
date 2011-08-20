@@ -1,14 +1,7 @@
-.container {
-
+body {
+    background-color: #fff;
+    position: relative;
 }
-
-#left {
-	background: #ddd;
-}
-
-#right {
-	background: #aaa;
-}
-#center {
-
+.section, #overview{
+    padding-top:60px;
 }

@@ -1,15 +1,24 @@
 <?php include( 'header.php' ); ?>
-<div class="container">
+<div class="container" id="overview" >
 
 <div class="row">
-	<div id="left" class="span8 columns">Left Column</div>
-	<div id="right" class="span8 columns">Right Column</div>
+	<div class="span8 columns">
+        <h1>Overview</h1>
+        <p>Custom Post Types are about Implementation, not registration.  This tool is designed to make the registration part easy.
+        </p>
+        <p>To use this tool, fill out the fields below.  Some will be auto populated for you.  When you get to the bottom, click "Generate" and your code will be created for you.  The URL will also be updated for you so you can easily share your selections or reuse them some other time.</p>
+    </div>
+	<div class="span6 columns offset2">
+        <h4>"Create features, not post types"
+        <small>- <a href="https://twitter.com/#!/themitcho">Mitcho</a></small></h4>
+    </div>
 </div>
+<a id="form" class="section">&nbsp;</a>
 <div class="row">
 	<div id="center" class="span12 columns offset2">
-	<form> 
+	<form id="cptGeneratorForm" > 
 	    <fieldset> 
-	      <legend>Example form legend</legend> 
+	      <legend>Basics</legend> 
 	      <div class="clearfix"> 
 	        <label for="">X-Large Input</label> 
 	        <div class="input"> 
@@ -174,11 +183,12 @@
 	        </div> 
 	      </div> <!-- /clearfix --> 
 	      <div class="actions"> 
-	        <button type="submit" class="btn primary">Save Changes</button> 
+	        <button type="submit" class="btn primary" id="generateBtn" >Generate</button> 
 	        <button type="reset" class="btn">Cancel</button> 
 	      </div> 
 	    </fieldset> 
 	  </form>
+      <pre id="genCode">this is not new code</pre>
 	</div>
 
 </div>
