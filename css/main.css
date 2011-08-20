@@ -1,7 +1,14 @@
 .container {
-	background: #bbb;
+
 }
 
-#center {
+#left {
 	background: #ddd;
+}
+
+#right {
+	background: #aaa;
+}
+#center {
+
 }
