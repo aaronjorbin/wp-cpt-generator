@@ -1,3 +1,6 @@
 [submodule "src/css/bootstrap"]
 	path = src/css/bootstrap
 	url = https://github.com/twitter/bootstrap.git
+[submodule "src/js/bbq"]
+	path = src/js/bbq
+	url = https://github.com/cowboy/jquery-bbq
